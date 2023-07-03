@@ -1,4 +1,5 @@
 class Reply < ApplicationRecord
+  belongs_to :author, class_name: 'User'
   belongs_to :discussion
-  belongs_to :author
 end
+

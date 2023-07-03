@@ -1,2 +1,4 @@
 class Channel < ApplicationRecord
-end
+    has_many :discussions
+  end
+  
